@@ -1,0 +1,12 @@
+# Virtual environment
+.venv/
+# Secrets: never commit these
+.env
+.env.*
+!.env.example
+# Python clutter
+__pycache__/
+*.pyc
+# Personal editor and OS files
+.vscode/
+.DS_Store
